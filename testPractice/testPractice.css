@@ -1,0 +1,89 @@
+﻿
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: gainsboro;
+	background-image: url('../testPractice/images/background2.jpeg');
+}
+
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+}
+
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.entryinfo {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #808080;
+    display: block;
+    float: left;
+    clear: left;
+    margin-top: 5px
+}
+
+#firstnameinput:valid {
+    background: white;
+}
+
+#lastnameinput:valid {
+    background: white;
+}
+
+#addressinput:valid {
+    background: white;
+}
+
+#genderinput:valid {
+    background-color: white;
+}
+
+#phoheinput:valid {
+    background: white;
+}
+
+#firstnameinput:invalid {
+    background: rgb(255, 233, 233);
+}
+#lastnameinput:invalid {
+    background: rgb(255, 233, 233);
+}
+#addressinput:invalid {
+    background: rgb(255, 233, 233);
+}
+#genderinput:invalid {
+    background: rgb(255, 233, 233);
+}
+#phoheinput:invalid {
+    background: rgb(255, 233, 233);
+}
+#yearinput:invalid {
+    background: rgb(255, 233, 233);
+}
+
+#fNameinput:invalid {
+    background: rgb(255, 233, 233);
+}
+
+#lNameinput:invalid {
+    background: rgb(255, 233, 233);
+}
+
+#Addrinput:invalid {
+    background: rgb(255, 233, 233);
+}
+
+#Geninput:invalid {
+    background: rgb(255, 233, 233);
+}
+
+#Phoinput:invalid {
+    background: rgb(255, 233, 233);
+}
+
+#Yeinput:invalid {
+    background: rgb(255, 233, 233);
+}

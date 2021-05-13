@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<!--Created by: Wen Sophie Xu - Created on: 03rd July, 2020-->
+<html lang="en">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title> Forms validation</title>
+<meta content="form validation, COMP125" name="keywords">
+<meta content="Example of forms validation" name="description">
+<link href="testPractice.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+
+    <article>
+        <form action="mailto:jdoe37@my.centennialcollege.ca" method="post" name="myForm">
+            <fieldset id="entry1" class="entryinfo">
+                <legend>Entry 1 </legend>
+                <label for="firstnameinput">First Name</label>
+                <input id="firstnameinput"  name="tFirstName" size="25" tabindex="1" type="text" placeholder="First Name" required="required"  /><br>
+                <label for="lastnameinput">Last Name</label>
+                <input id="lastnameinput"name="tLastName" size="25" tabindex="3" type="text" placeholder="Last Name" required="required" /><br>
+                <label for="addressinput">Address</label>
+                <input id="addressinput"  name="tAddress" size="50" tabindex="5" type="text" placeholder="Address" required="required" /><br>
+                <label for="genderinput">Gender</label>
+                <input id="genderinput"  name="optGender1" tabindex="7" type="radio" value="M" required="required" />M
+                <input  name="optGender1" tabindex="9" type="radio" value="F" required="required" />F
+                <input  name="optGender1" tabindex="11" type="radio" value="X" required="required" />X<br>
+                <label for="phoheinput">Phone 
+                    <input   id="phoheinput" name="phonenumber" size="13"  tabindex="13"type="text" required="required" placeholder="xxx-xxx-xxxx" required="required" /></label><br>
+                <label for="yearinput">Year 
+                    <select  id="yearinput" name="year1" size="4" tabindex="15" required="required"  >
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option></select></label>
+             
+      
+            </fieldset>
+            <fieldset id="entry2"class="entryinfo">
+                <legend>Entry 2 </legend>
+                <input id="sameEntry1" name="SameEntry1" type="checkbox"  />
+                <label for="sameEntry1">same as Entry1</label><br>
+                <label for="fNameinput">First Name</label>
+                <input id="fNameinput" name="txtFirstName" size="25" tabindex="17" type="text" placeholder="First Name" required="required" /><br>
+                <label for="lNameinput">Last Name</label>
+                <input id="lNameinput"name="txtLastName" size="25" tabindex="19" type="text" placeholder="Last Name" required="required" /><br>
+                <label for="Addrinput">Address</label>
+                <input id="Addrinput"name="txtAddress" size="50" tabindex="21" type="text" placeholder="Address" required="required" /><br>
+                <label for="Geninput">Gender</label>
+                <input id="Geninput"name="optGender" tabindex="23" type="radio" value="M" required="required" />M
+                <input name="optGender" tabindex="25" type="radio" value="F" required="required" />F
+                <input name="optGender" tabindex="27" type="radio" value="X" required="required" />X<br>
+                <label for="Phoinput">Phone  
+                    <input id="Phoinput" name="phoneNumber" size="13"  tabindex="31"type="text" required="required" placeholder="xxx-xxx-xxxx" required="required"  /></label>  <br>
+                <label for="Yeinput">Year <select id="Yeinput" name="year" size="4" tabindex="33 required="required"  >
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option></select></label> <br>
+                
+                <input name="btnSubmit"  id="submitbutton" tabindex="35" type="button" value="Submit">
+            </fieldset>
+           
+        </form>
+    
+    </article>
+    
+    
+</div>
+<script src="testPractice.js"></script>
+</body>
+
+</html>
